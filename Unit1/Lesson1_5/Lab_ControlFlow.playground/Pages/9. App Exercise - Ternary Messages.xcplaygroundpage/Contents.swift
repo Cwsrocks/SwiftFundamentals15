@@ -8,6 +8,9 @@
 let stepGoal = 10000
 let steps = 3948
 
+let message = steps < (stepGoal / 2) ? "Almost halfway!" : "Over halfway!"
+print (message)
+
 /*:
  _Copyright © 2023 Apple Inc._
 
@@ -18,5 +21,4 @@ let steps = 3948
  _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
  
 [Previous](@previous)  |  page 9 of 9
- */let message = steps < (stepGoal / 2) ? "Almost halfway!" : "Over halfway!"
-print (message)
+ */
