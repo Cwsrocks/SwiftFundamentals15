@@ -10,14 +10,14 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
-
+print("Back in Time")
+print("Huey Lewis and the News")
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
-
-
+print("Take me away! I don't mind!")
+print("But you better promise me I'll be back in time!")
+print("Gotta get back in time!")
 /*:
 
  _Copyright © 2023 Apple Inc._
