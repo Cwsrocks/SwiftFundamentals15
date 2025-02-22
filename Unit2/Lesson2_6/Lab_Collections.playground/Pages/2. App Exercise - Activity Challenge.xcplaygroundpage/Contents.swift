@@ -21,7 +21,7 @@ let commitedChallenges: [String] = []
 //:  Write an if statement that will use `isEmpty` to check if there is anything in the array. If there is not, print a statement asking the user to commit to a challenge. Add an else-if statement that will print "The challenge you have chosen is <INSERT CHOSEN CHALLENGE>" if the array count is exactly 1. Then add an else statement that will print "You have chosen multiple challenges."
 if commitedChallenges.isEmpty {
     print("Commit a challenge!")
-} else if {
+} else if commitedChallenges.count == 1{
     print(commitedChallenges[0])
 } else {
     print("You have chosen multiple challenges.")
